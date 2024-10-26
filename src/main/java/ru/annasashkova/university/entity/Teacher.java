@@ -2,7 +2,7 @@ package ru.annasashkova.university.entity;
 
 public class Teacher implements Teaching, LivingBeing {
     public static University university;
-    public static Student student;
+    public Student student;
     public int age;
     public String name;
     public String subject;
@@ -16,10 +16,12 @@ public class Teacher implements Teaching, LivingBeing {
         studyStudent(student);
     }
 
+    @Override
     public void eat() {
         System.out.println("Учитель поел!");
     }
 
+    @Override
     public void sleep() {
         System.out.println("Учитель поспал!");
     }

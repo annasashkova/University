@@ -1,8 +1,8 @@
 package ru.annasashkova.university.entity;
 
 public class University {
-    public static Teacher teacher;
-    public static Student student;
+    public Teacher teacher;
+    public Student student;
     public String name;
 
     public static void nameTeacher(Teacher teacher) {

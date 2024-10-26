@@ -8,13 +8,9 @@ import ru.annasashkova.university.service.UniversityLiveDemonstrator;
 public class _Main {
     public static void main(String[] args) {
         University uni = new University();
-        Student st1 = new Student();
+        Student st1 = new Student(19,"Павел", 5, "Лечебное дело");
         Teacher tch1 = new Teacher();
         uni.name = "Медицинский институт";
-        st1.name = "Павел";
-        st1.faculty = "Лечебное дело";
-        st1.groupnamber = 5;
-        st1.age = 19;
         tch1.name = "Мария Анатольевна";
         tch1.subject = "Анатомия";
         tch1.age = 51;
